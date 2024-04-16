@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="SFS2X-RV Client" package="com.zip.sfs2xrv" version="1.0.0" company="ZeroIP" />
+	<app main="Main" path="build/client" file="SFS2X-RV_Client" />
+	<window width="700" height="600"/>
+	<window hidden="true" unless="debug" />
+	
+	<source path="src/client" rename="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="smartfox-haxe-client"/>
+	
+	<assets path="assets" if="debug" />
+	
+</project>
