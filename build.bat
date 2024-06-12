@@ -10,7 +10,7 @@ call :checkcmd release
 exit /b 0
 
 :release
-if %errorlevel% equ 0 call haxelib run openfl build windows -Dno-deprecation-warnings
+call haxelib run openfl build windows -Dno-deprecation-warnings
 exit /b 0
 
 :debug
